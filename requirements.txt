@@ -1,0 +1,4 @@
+-r flask
+flask_cors
+pandas
+sqlite3
