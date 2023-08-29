@@ -12,7 +12,7 @@ def get_file():
 
     :return: {sheet_name : sheet_content_as_df}
     """
-    data_dump = pd.read_excel(r"./size chart input.xlsx", sheet_name=None)
+    data_dump = pd.read_excel(r"./size_chart_input.xlsx", sheet_name=None)
     return data_dump
 
 @app.route('/submitFeedback', methods=['POST'])
